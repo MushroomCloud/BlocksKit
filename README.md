@@ -1,5 +1,7 @@
 This fork removes all references to UIImagePickerController, so that the app won't get rejected by Apple when submitting with Xcode 8 because of a missing `NSPhotoLibraryUsageDescription` key in the info.plist.
 
+It also removes the additions to `UIWebView`, which has been deprecated.
+
 [BlocksKit](https://zwaldowski.github.io/BlocksKit)
 ===================================================
 
